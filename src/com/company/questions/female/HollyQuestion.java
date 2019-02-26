@@ -19,6 +19,6 @@ public class HollyQuestion extends Question
     @Override
     public TreeNode<String> right()
     {
-        return new Answer("")
+        return new Answer("It's Angela!");
     }
 }
