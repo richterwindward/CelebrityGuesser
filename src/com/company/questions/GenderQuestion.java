@@ -1,7 +1,9 @@
-package com.company.questions.male;
+package com.company.questions;
 
 import com.company.TreeNode;
 import com.company.questions.female.SalesWomanQuestion;
+import com.company.questions.male.Question;
+import com.company.questions.male.SalesmanQuestion;
 
 public class GenderQuestion extends Question
 {
