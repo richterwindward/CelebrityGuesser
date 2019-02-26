@@ -2,22 +2,35 @@ package com.company;
 
 import com.company.questions.Question;
 
-public class Asker {
-    private Question currentQuestion;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 
-    public Asker(Question rootQuestion) {
+public class Asker {
+    private TreeNode<String> currentQuestion;
+
+    public Asker(Question rootQuestion) throws Exception {
+
         this.currentQuestion = rootQuestion;
+        BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));
+        while (true)
+        {
+            System.out.println(currentQuestion.getObject());
+            String answer = buffer.readLine();
+            if(answer.equalsIgnoreCase("y")) answerYes();
+            answerNo();
+
+        }
     }
 
     public String getCurrentQuestion() {
-        return this.currentQuestion.question();
+        return (String) this.currentQuestion.getObject();
     }
 
     public void answerYes() {
-        this.currentQuestion = (Question)this.currentQuestion.left();
+        this.currentQuestion = this.currentQuestion.getLeft();
     }
 
     public void answerNo() {
-        this.currentQuestion = (Question)this.currentQuestion.right();2
+        this.currentQuestion = (Question)this.currentQuestion.getRight();
     }
 }

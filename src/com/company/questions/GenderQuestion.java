@@ -5,7 +5,7 @@ import com.company.TreeNode;
 public class GenderQuestion extends Question
 {
     public GenderQuestion() {
-        super("Male or Female?");
+        super("Is this person a male");
     }
 
     @Override
