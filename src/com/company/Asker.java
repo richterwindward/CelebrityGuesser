@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.questions.Question;
+import com.company.questions.male.Question;
 
 public class Asker {
     private Question currentQuestion;

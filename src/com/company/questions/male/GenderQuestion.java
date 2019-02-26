@@ -1,11 +1,11 @@
-package com.company.questions;
+package com.company.questions.male;
 
 import com.company.TreeNode;
 
-
-public class GlassesQuestion extends Question{
-    public GlassesQuestion() {
-        super("Does this person have glasses?");
+public class GenderQuestion extends Question
+{
+    public GenderQuestion() {
+        super("Male or Female?");
     }
 
     @Override
