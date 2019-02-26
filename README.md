@@ -4,4 +4,4 @@
 Our tree: [tree]
 
 
-![tree]: https://github.com/richterwindward/CelebrityGuesser/blob/master/tree.jpg "Tree"
+[tree]: https://github.com/richterwindward/CelebrityGuesser/blob/master/tree.jpg "Tree"
