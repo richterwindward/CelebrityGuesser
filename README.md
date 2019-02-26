@@ -1,3 +1,7 @@
 # CelebrityGuesser
+
+
 Our tree: [tree]
-![tree]: https://github.com/richterwindward/CelebrityGuesser/blob/master/tree.jpg
+
+
+![tree]: https://github.com/richterwindward/CelebrityGuesser/blob/master/tree.jpg "Tree"
