@@ -1,4 +1,4 @@
-package com.company.questions;
+package com.company.questions.male;
 
 import com.company.TreeNode;
 
