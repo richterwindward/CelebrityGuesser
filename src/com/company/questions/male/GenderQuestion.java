@@ -1,6 +1,7 @@
 package com.company.questions.male;
 
 import com.company.TreeNode;
+import com.company.questions.female.SalesWomanQuestion;
 
 public class GenderQuestion extends Question
 {
@@ -10,11 +11,11 @@ public class GenderQuestion extends Question
 
     @Override
     public TreeNode<String> left() {
-        return null;
+        return new SalesmanQuestion();
     }
 
     @Override
     public TreeNode<String> right() {
-        return null;
+        return new SalesWomanQuestion();
     }
 }

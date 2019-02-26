@@ -3,9 +3,9 @@ package com.company.questions.female;
 import com.company.TreeNode;
 import com.company.questions.male.Question;
 
-public class SalesManQuestion extends Question
+public class SalesWomanQuestion extends Question
 {
-    public SalesManQuestion() {
+    public SalesWomanQuestion() {
         super("Are they a salesman?");
     }
 
