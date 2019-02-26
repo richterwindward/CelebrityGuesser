@@ -1,7 +1,7 @@
 package com.company.questions.female;
 
 import com.company.TreeNode;
-import com.company.questions.male.Question;
+import com.company.questions.Question;
 
 public class SalesWomanQuestion extends Question
 {

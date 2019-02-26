@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.questions.male.Question;
+import com.company.questions.Question;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -17,7 +17,7 @@ public class Asker {
             System.out.println(currentQuestion.getObject());
             String answer = buffer.readLine();
             if(answer.equalsIgnoreCase("y")) answerYes();
-            answerNo();
+            else answerNo();
 
         }
     }
@@ -31,6 +31,6 @@ public class Asker {
     }
 
     public void answerNo() {
-        this.currentQuestion = (Question)this.currentQuestion.getRight();
+        this.currentQuestion = this.currentQuestion.getRight();
     }
 }

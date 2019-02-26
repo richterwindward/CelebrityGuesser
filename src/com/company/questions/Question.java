@@ -1,8 +1,9 @@
-package com.company.questions.male;
+package com.company.questions;
 
 import com.company.TreeNode;
 
-public abstract class Question extends TreeNode<String> {
+public abstract class Question extends TreeNode<String>
+{
 
     private String question;
 

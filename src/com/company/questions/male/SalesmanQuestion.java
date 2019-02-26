@@ -1,9 +1,11 @@
 package com.company.questions.male;
 
+import com.company.questions.Question;
 import com.company.TreeNode;
 
 
-public class SalesmanQuestion extends Question{
+public class SalesmanQuestion extends Question
+{
     public SalesmanQuestion() {
         super("Is this person a salesman?");
     }
