@@ -18,18 +18,19 @@ public class Answer extends Question
         if(fin)
         {
             System.out.println(s);
-            System.exit(0);
+          //  System.exit(0);
         }
     }
 
     @Override
     public TreeNode<String> left()
     {
-        return new Answer("It is " + s , true);
+        if (true) return null; else return new Answer("It is " + s , true);
     }
     @Override
     public TreeNode<String> right()
     {
+        if (true) return null;
         try
         {
             System.out.println("Who is it?");

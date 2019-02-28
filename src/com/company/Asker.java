@@ -1,14 +1,12 @@
 package com.company;
 
-import com.company.questions.Question;
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 public class Asker {
     private TreeNode<String> currentQuestion;
 
-    public Asker(Question rootQuestion) throws Exception {
+    public Asker(TreeNode<String> rootQuestion) throws Exception {
 
         this.currentQuestion = rootQuestion;
         BufferedReader buffer = new BufferedReader(new InputStreamReader(System.in));

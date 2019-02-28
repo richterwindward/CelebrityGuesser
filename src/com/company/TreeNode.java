@@ -1,9 +1,7 @@
 package com.company;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.StringTokenizer;
 import java.util.List;
 
 public class TreeNode<T> {
@@ -47,7 +45,7 @@ public class TreeNode<T> {
         if(this.getObject() == null) {
             s.append("*");
         } else {
-            s.append(this.object.toString());
+            s.append(this.object.toString().replace(" ","_"));
         }
 
         s.append(' ');
@@ -82,11 +80,13 @@ public class TreeNode<T> {
         if(s == null || s.equals("") || s.equals(" ") || s.equals("*"))
             return null;
         String[] tokens = s.split(" ");
-        List<String> tokensList = Arrays.asList(tokens);
-        String head = tokensList.get(0);
+        List<String> tokensList = new ArrayList<>(Arrays.asList(tokens));
+        String head = tokensList.get(0).replace("_"," ");
         tokensList.remove(0);
         TreeNode<String> node = new TreeNode<>(head);
-        node.setLeft(deserialize(tokensList.toString()));
+        node.setLeft(deserialize(tokensList.toString().replace(",","").replace("[","").replace("]","")));
+        tokensList.remove(1);
+        node.setRight(deserialize(tokensList.toString().replace(",","").replace("[","").replace("]","")));
         return null;
     }
 
