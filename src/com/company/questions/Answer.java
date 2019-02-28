@@ -32,7 +32,7 @@ public class Answer extends Question
     {
         try
         {
-            System.out.println("Damn, who is it?");
+            System.out.println("Who is it?");
             Scanner s = new Scanner(System.in);
             String person = s.nextLine();
             File f = new File("nodestoadd.txt");
