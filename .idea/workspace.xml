@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f53473-dcde-4137-82cf-963482da666b" name="Default Changelist" comment="Complete Questions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/questions/female/HollyQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/questions/female/HollyQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/questions/female/OldQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/questions/female/OldQuestion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/questions/female/PamQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/questions/female/PamQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/questions/male/AccountantQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/questions/male/AccountantQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/questions/male/CaucasianQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/questions/male/CaucasianQuestion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/questions/male/GlassesQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/questions/male/GlassesQuestion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,13 +26,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2571" />
+          <entry key="java" value="2572" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2571" />
+          <entry key="JAVA" value="2572" />
           <entry key="Scratch" value="6" />
         </counts>
       </usages-collector>
@@ -129,10 +127,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/OldQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,10 +143,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/PamQuestion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+            <state relative-caret-position="285">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -496,16 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/OldQuestion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/PhyllisQuestion.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/SalesManQuestion.java" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -600,12 +596,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/PamQuestion.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/OldQuestion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/questions/female/PamQuestion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
           </folding>
         </state>
       </provider>

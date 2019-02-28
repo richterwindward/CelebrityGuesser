@@ -13,12 +13,12 @@ public class HollyQuestion extends Question
     @Override
     public TreeNode<String> left()
     {
-        return new Answer("It's holly!");
+        return new Answer("Holy",true);
     }
 
     @Override
     public TreeNode<String> right()
     {
-        return new Answer("It's Angela!");
+        return new Answer("Angela",false);
     }
 }

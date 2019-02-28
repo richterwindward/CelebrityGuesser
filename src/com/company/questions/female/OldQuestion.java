@@ -13,12 +13,12 @@ public class OldQuestion extends Question
     @Override
     public TreeNode<String> left()
     {
-        return new Answer("It's phyllis!");
+        return new Answer("phyllis",false);
     }
 
     @Override
     public TreeNode<String> right()
     {
-        return new Answer("It's karen!");
+        return new Answer("karen",false);
     }
 }
