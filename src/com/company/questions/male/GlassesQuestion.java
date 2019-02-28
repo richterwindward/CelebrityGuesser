@@ -1,5 +1,6 @@
 package com.company.questions.male;
 
+import com.company.questions.Answer;
 import com.company.questions.Question;
 import com.company.TreeNode;
 
@@ -12,11 +13,11 @@ public class GlassesQuestion extends Question
 
     @Override
     public TreeNode<String> left() {
-        return null;
+        return new Answer("It's Dwight!", false);
     }
 
     @Override
     public TreeNode<String> right() {
-        return null;
+        return new CaucasianQuestion();
     }
 }

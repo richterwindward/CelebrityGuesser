@@ -13,12 +13,12 @@ public class PamQuestion extends Question
     @Override
     public TreeNode<String> left()
     {
-        return new Answer("It's pam!");
+        return new Answer("It's pam!", true);
     }
 
     @Override
     public TreeNode<String> right()
     {
-        return new Answer("It's Meredith!");
+        return new Answer("It's Meredith!", false);
     }
 }
