@@ -17,6 +17,6 @@ public class AccountantQuestion extends Question
 
     @Override
     public TreeNode<String> right() {
-        return new Answer("It's Creed!");
+        return new Answer("Creed",false);
     }
 }

@@ -17,6 +17,6 @@ public class CaucasianQuestion extends Question
 
     @Override
     public TreeNode<String> right() {
-        return new Answer("It's Stanley!");
+        return new Answer("Stanley",false);
     }
 }
