@@ -19,6 +19,6 @@ public class PamQuestion extends Question
     @Override
     public TreeNode<String> right()
     {
-        return new Answer("Meredith",false);
+        return new Answer("Meredith", false);
     }
 }
