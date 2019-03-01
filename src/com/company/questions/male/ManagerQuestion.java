@@ -12,7 +12,7 @@ public class ManagerQuestion extends Question
 
     @Override
     public TreeNode<String> left() {
-        return new Answer("Michael",false);
+        return new Answer("Michael",true);
     }
 
     @Override

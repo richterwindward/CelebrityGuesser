@@ -41,7 +41,6 @@ public class TreeNode<T> {
     public String serialize() {
         StringBuilder s = new StringBuilder();
 
-
         if(this.getObject() == null) {
             s.append("*");
         } else {
@@ -63,31 +62,17 @@ public class TreeNode<T> {
         return s.toString();
     }
 
-    public static TreeNode deserialize(String s) {
-    //    System.out.println(s);
-        /*(
-        if(s == null || s.equals("") || s.equals(" "))
+    public static TreeNode deserialize(ArrayList<String> tokens) {
+        if(tokens.size() == 0 || tokens.get(0).equals("*"))
             return null;
-        String[] tokens = s.split(" ");
-        String token = tokens[0];
-        TreeNode<String> node = new TreeNode<>(token);
-
-        if(tokens[1].equals("*")) node.setLeft(null); else node.setLeft(deserialize(s.replace(token + " ", "").replace(token, "")));
-        if(tokens[2].equals("*")) node.setRight(null); else  node.setRight(deserialize(s.replace(token + " " + (tokens.length > 1 ? tokens[1] + " " : ""), "").replace(token, "")));
-        return node;
-        */
-
-        if(s == null || s.equals("") || s.equals(" ") || s.equals("*"))
-            return null;
-        String[] tokens = s.split(" ");
-        List<String> tokensList = new ArrayList<>(Arrays.asList(tokens));
-        String head = tokensList.get(0).replace("_"," ");
-        tokensList.remove(0);
-        TreeNode<String> node = new TreeNode<>(head);
-        node.setLeft(deserialize(tokensList.toString().replace(",","").replace("[","").replace("]","")));
-        tokensList.remove(1);
-        node.setRight(deserialize(tokensList.toString().replace(",","").replace("[","").replace("]","")));
-        return null;
+        String head = tokens.remove(0).replace("_"," ");
+        TreeNode<String> root = new TreeNode<>(head);
+        root.setLeft(deserialize(tokens));
+        root.setRight(deserialize(tokens));
+        return root;
     }
 
+    public static ArrayList<String> generateTokensFromString(String s) {
+        return new ArrayList<String>(Arrays.asList(s.split(" ")));
+    }
 }
